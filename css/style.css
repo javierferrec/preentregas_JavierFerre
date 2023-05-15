@@ -7,6 +7,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 62,5%;
 }
 
 html, body {
@@ -20,6 +21,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
+  height: auto;
 }
 
 a {
@@ -171,76 +173,91 @@ main {
 }
 
 
-/* Footer */
-footer {
-  background: linear-gradient(to left, black, #532356, #993e9f, #dc5ae6);
-  color: white;
-  font-family: "Roboto", "Open Sans", sans-serif;
-  font-size: 14px;
-  padding: 20px 20px 30px;
-  margin-top: 30px;
-  bottom: 0;
-  left: 0;
+
+/* ========== FOOTER ==========*/
+
+
+footer{
+  position: relative;
   width: 100%;
-  min-height: 2rem;
-}
-
-@media (min-width: 768px) {
-
-  /* para tablet */
-  footer.h-md-auto {
-    height: auto !important;
-  }
-}
-
-@media (min-width: 992px) {
-  /* para pc */
-  footer.h-lg-auto {
-    height: auto !important;
-  }
-}
-
-footer a {
-  color: white;
-  text-decoration: none;
-}
-
-footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-footer ul li:last-child {
-  margin-right: 0;
-}
-
-footer .row {
+  min-height: 100px;
+  padding: 20px 50px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to left, black, #532356, #993e9f, #dc5ae6);
+}
+
+footer .social_icon,.footer_pages{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
-footer .col-md-4 {
-  width: 30%;
+footer .social_icon li, .footer_pages li {
+  list-style: none;
 }
 
-footer h5 {
-  font-size: 18px;
-  margin-bottom: 15px;
+footer .social_icon li a {
+  font-size: 2em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+footer .social_icon li a:hover{
+  transform: translateY(-10px);
+}
+
+footer .footer_pages a {
+  font-size: 1.2em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+footer .footer_pages li a:hover{
+  opacity: 3;
+
 }
 
 footer p {
-  margin-bottom: 0;
+  color: #fff;
+  text-align: center;
+  margin-top: 15psx;
+  margin-bottom: 10px;
+  font-size: 1.1em;
 }
 
-.contact {
-  margin-bottom: 30px;
-}
 
-.map iframe {
-  border:rgb(0, 0, 0);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
