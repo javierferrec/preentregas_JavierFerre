@@ -240,27 +240,6 @@ footer p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Estilos Pagina Yo_soy */
 
 /* Seccion descripcion canal*/
@@ -427,7 +406,12 @@ main {
 
 
 
+/* === MODIFICACDOR BOOSTRAP ===*/
 
+.buttonColor {
+  background-color:#993e9f;
+  color: white;
+}
 
 
 
